@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'courseWatcher.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'coursewatcher',
+        'USER': 'andrewrobles',
+        'PASSWORD': '>>>TripleRock1986<<<',
+        'HOST': 'arobles-972.postgres.pythonanywhere-services.com',
+        'PORT': 10972,
     }
 }
 
