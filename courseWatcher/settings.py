@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['arobles.pythonanywhere.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'alerts.apps.AlertsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
