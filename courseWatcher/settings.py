@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['arobles.pythonanywhere.com']
 
+STATIC_ROOT = '/home/arobles/arobles.pythonanywhere.com/static'
 
 # Application definition
 
